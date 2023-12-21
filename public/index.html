@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo Link thanh toán</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-box">
+        <div class="checkout">
+          <div class="product">
+            <p><strong>Nạp tiền Go Traffic</strong></p>
+            <form action="/create-payment-link" method="post">
+              <input type="hidden" name="productName" value="Mì tôm Hảo Hảo ly">
+              <p><strong>Số lượng:</strong> <input name="amount" value="1000"></p>
+              <button type="submit" id="create-payment-link-btn">Tạo Link thanh toán</button>
+            </form>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
