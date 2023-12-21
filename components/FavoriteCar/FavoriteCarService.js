@@ -1,10 +1,7 @@
 const { Sequelize } = require("sequelize");
 const favoriteCarModel = require("./FavoriteCarModel");
 const CarModel = require("../../components/Car/CarModel");
-const sequelize = new Sequelize("gotrafficdb", "root", "gotraffic&9299", {
-  host: "103.57.129.166:3000",
-  dialect: "mysql",
-});
+
 // const FavoriteCarModel = new favoriteCarModel(sequelize);
 
 const db = require("../../components/indexModel");

@@ -2,7 +2,9 @@ const { Sequelize, DataTypes } = require("sequelize");
 
 // connect to db
 const sequelize = new Sequelize("gotrafficdb", "root", "gotraffic&9299", {
-  host: "103.57.129.166:3000",
+  // host: "103.57.129.166:3000",
+  host: "localhost:3000",
+
   dialect: "mysql",
 });
 

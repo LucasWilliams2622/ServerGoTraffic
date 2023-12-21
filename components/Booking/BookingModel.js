@@ -1,9 +1,4 @@
 const { Sequelize, Model, DataTypes } = require("sequelize");
-// module.exports = model;
-// const sequelize = new Sequelize("gotrafficdb", "root", "gotraffic&9299", {
-//   host: "103.57.129.166:3000",
-//   dialect: "mysql",
-// });
 
 module.exports = (sequelize, DataTypes) => {
   const BookingCar = sequelize.define("Booking", {

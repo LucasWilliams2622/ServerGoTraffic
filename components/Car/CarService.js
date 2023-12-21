@@ -1,8 +1,4 @@
 const { Sequelize } = require("sequelize");
-const sequelize = new Sequelize("gotrafficdb", "root", "gotraffic&9299", {
-  host: "103.57.129.166:3000",
-  dialect: "mysql",
-});
 const db = require("../../components/indexModel");
 const CarModel = db.cars;
 const UserModel = db.users;
